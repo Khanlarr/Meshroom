@@ -12,13 +12,13 @@ import Katya from "../../assets/img/katya-austin-koyy-5uzlPU-unsplash@2x.webp"
 function Projects() {
     return (
         <section className="ftprojects">
-            <div data-aos="fade-right" data-aos-offset="500" className="ftprojects__header">
+            <div data-aos="fade-right" className="ftprojects__header">
                 <h2>Some of our <br />
                     featured projects</h2>
             </div>
             <div className="ftprojects__container">
 
-                <div data-aos="zoom-in" data-aos-offset="550" className="ftprojects__proje">
+                <div data-aos="zoom-in" className="ftprojects__proje">
                     <img
                         alt="print_workshop"
                         src={Car} />
@@ -28,7 +28,7 @@ function Projects() {
                     </div>
                 </div>
 
-                <div data-aos="zoom-in" data-aos-offset="550" className="ftprojects__proje">
+                <div data-aos="zoom-in" className="ftprojects__proje">
                     <img
                         alt="print_workshop_uk"
                         src={Hospital} />
@@ -38,7 +38,7 @@ function Projects() {
                     </div>
                 </div>
 
-                <div data-aos="zoom-in" data-aos-offset="550" className="ftprojects__proje">
+                <div data-aos="zoom-in" className="ftprojects__proje">
                     <img
                         alt="print_posters"
                         src={Movie} />
@@ -48,7 +48,7 @@ function Projects() {
                     </div>
                 </div>
 
-                <div data-aos="zoom-in" data-aos-offset="550" className="ftprojects__proje">
+                <div data-aos="zoom-in" className="ftprojects__proje">
                     <img
                         alt="print_book"
                         src={Book} />
@@ -73,7 +73,7 @@ function Projects() {
                 </button>
             </div>
 
-            <div data-aos="zoom-out-up" className="we-love-print">
+            <div data-aos="zoom-in" className="we-love-print">
                 <img
                     alt="uk_print'_workshop"
                     src={Katya} />

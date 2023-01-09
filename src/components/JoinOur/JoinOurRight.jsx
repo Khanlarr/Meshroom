@@ -9,13 +9,13 @@ function JoinOurRight() {
     return (
         <div className='joinRight'>
 
-            <div data-aos="zoom-out-up" className="joinRightTop">
+            <div data-aos="zoom-in" className="joinRightTop">
                 <img className=""
                     alt="meshroom"
                     src={Katya} />
             </div>
 
-            <div data-aos="zoom-out-up" className="joinRightMiddle">
+            <div data-aos="zoom-in" className="joinRightMiddle">
                 <article>
                     <p>
                         We are a
@@ -29,14 +29,14 @@ function JoinOurRight() {
                     </p>
                 </article>
             </div>
-            <div data-aos="zoom-out-up" className="joinRightBottom">
+            <div data-aos="zoom-in" className="joinRightBottom">
             {/*  data-aos-offset="1450" */}
                 <img className=""
                     alt="meshroom"
                     src={Rainbow} />
             </div>
 
-            <div data-aos="zoom-out-up" className="joinRightEnd">
+            <div data-aos="zoom-in" className="joinRightEnd">
                 <h3>
                     creative
                     community

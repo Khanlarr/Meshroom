@@ -16,38 +16,38 @@ function Services() {
                 src={ServicesWord} />
             <div className="services__wrapper">
                 <div className="services__upper-text">
-                    <h2 data-aos="fade-right">Does your brand need unique print services?</h2>
-                    <h3 data-aos="fade-right">With our services, we can help your brand achieve their goals
+                    <h2 data-aos="flip-down">Does your brand need unique print services?</h2>
+                    <h3 data-aos="flip-down">With our services, we can help your brand achieve their goals
                     </h3>
                 </div>
                 <div className="services__middle">
-                    <div data-aos="fade-right" className="services__img">
+                    <div data-aos="flip-down" className="services__img">
                         <img className=""
                             alt="meshroom-print"
                             src={ThirdImage} />
                     </div>
                     <div className="services__options">
                         <ul className="sevices__options-bulletList">
-                            <li data-aos="fade-right" className="services__options-bulletList-items">Textile</li>
-                            <li data-aos="fade-right" className="services__options-bulletList-items">
+                            <li data-aos="flip-down" className="services__options-bulletList-items">Textile</li>
+                            <li data-aos="flip-down" className="services__options-bulletList-items">
                                 Sublimation printing
                             </li>
-                            <li data-aos="fade-right" className="services__options-bulletList-items">
+                            <li data-aos="flip-down" className="services__options-bulletList-items">
                                 Custom branded items
                             </li>
-                            <li data-aos="fade-right" className="services__options-bulletList-items">Custom pos</li>
-                            <li data-aos="fade-right" className="services__options-bulletList-items">
+                            <li data-aos="flip-down" className="services__options-bulletList-items">Custom pos</li>
+                            <li data-aos="flip-down" className="services__options-bulletList-items">
                                 Fashion printing
                             </li>
-                            <li data-aos="fade-right" className="services__options-bulletList-items">Embroidery</li>
+                            <li data-aos="flip-down" className="services__options-bulletList-items">Embroidery</li>
                         </ul>
                     </div>
                 </div>
                 <div className="services__footer-text">
-                    <div data-aos="fade-right" className="services__footer-text--rotated">
+                    <div data-aos="flip-down" className="services__footer-text--rotated">
                         <span className="text-rotated">Mission</span>
                     </div>
-                    <p data-aos="fade-right">
+                    <p data-aos="flip-down">
                         Our mission is to embrace the skills of our talented workforce to
                         provide a high level of service designed to fulfil the requirements
                         of our customers to our exacting standards, to their complete

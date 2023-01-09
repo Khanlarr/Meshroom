@@ -3,8 +3,8 @@ import inputbg from '../../assets/img/Blackborderinput.svg'
 
 function HaveLeft() {
     return (
-        <div className='haveLeft'>
-            <div data-aos="fade-right" data-aos-offset="2250" className="haveLeftHeading">
+        <div data-aos="fade-right" className='haveLeft'>
+            <div  className="haveLeftHeading">
                 <div>
                     <h2>have a project
                         in mind?</h2>

@@ -4,8 +4,8 @@ import DashedLine from '../../assets/img/dashed-line.svg'
 
 function JoinOurLeft() {
     return (
-        <div className='joinLeft'>
-            <div data-aos="fade-right" data-aos-offset="1450" className="joinLeftHeading">
+        <div data-aos="fade-right" data-aos-offset="1450" className='joinLeft'>
+            <div className="joinLeftHeading">
                 <h2>Join to our</h2>
             </div>
 

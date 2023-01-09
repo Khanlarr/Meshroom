@@ -11,7 +11,7 @@ import JoinOurRight from './JoinOurRight'
 function Joinour() {
     return (
         <section className='joinOur'>
-            <div data-aos="fade-right" data-aos-duration="1000" className='joinOurTop'>
+            <div data-aos="fade-right" data-aos-offset="1250" className='joinOurTop'>
                 <img className=""
                     alt="uk-print-workshop"
                     src={TopImage} />
@@ -22,7 +22,7 @@ function Joinour() {
                 <JoinOurRight />
             </div>
 
-            <div data-aos="fade-right" className="joinLeftEnd">
+            <div data-aos="fade-right" data-aos-offset="1750" className="joinLeftEnd">
                 <img className=""
                     alt="uk-print-workshop"
                     src={BottomImg} />
