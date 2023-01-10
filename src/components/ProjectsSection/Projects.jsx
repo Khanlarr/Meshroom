@@ -73,11 +73,11 @@ function Projects() {
                 </button>
             </div>
 
-            <div data-aos="zoom-in" className="we-love-print">
+            {/* <div data-aos="zoom-in" className="we-love-print">
                 <img
                     alt="uk_print'_workshop"
                     src={Katya} />
-            </div>
+            </div> */}
 
         </section >
     )

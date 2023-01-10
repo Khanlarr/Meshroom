@@ -39,16 +39,16 @@ header nav {
   background: #fff;
   content: "";
   display: block;
-  height: 18px;
+  height: 10px;
   clip-path: polygon(11% 42%, 84% 42%, 77% 100%, 0% 100%);
 }
 
 .navToggle::before {
-  transform: translate(5px, 6px) !important;
+  transform: translate(5px, 0) !important;
 }
 
 .navToggle::after {
-  transform: translateY(-6px) translateX(-4px) !important;
+  transform: translateY(0px) translateX(-4px) !important;
 }
 
 .sidenav {

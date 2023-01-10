@@ -59,6 +59,7 @@
 
 .joinLeftForm form label p {
   margin-bottom: 26px;
+  color: yellow;
 }
 
 .joinLeftForm form label input {
@@ -74,11 +75,19 @@
   text-align: center;
   color: white;
   overflow: hidden;
+  color: yellow;
+  padding-bottom: 2px;
 }
-
+.joinLeftForm form label input:focus{
+  border-bottom: 2px solid yellow;
+}
+.joinLeftForm form label input:focus::placeholder{
+  color: transparent;
+}
 .jointext {
   margin-top: 5.5% !important;
   font-size: 20px !important;
+  color: yellow;
 }
 
 .joinLeftDashedLine {
@@ -145,9 +154,6 @@
 
 .joinLeftEnd img {
   width: 100%;
-}
-input:focus::placeholder {
-  color: transparent;
 }
 @media screen and (min-width: 320px) and (max-width: 370px) {
   .joinOurTop {
