@@ -1,9 +1,19 @@
-import React from 'react'
+import React,{useState} from 'react'
 import inputbg from '../../assets/img/Blackborderinput.svg'
 
 function HaveLeft() {
+    const [width,setWidth]=useState(true)
+    const changeWidth=()=>{
+        if(window.screen.width>=1024){
+          setWidth(false)
+        }
+        else{
+            setWidth(true)
+        }
+    }
+    window.addEventListener('scroll',changeWidth)
     return (
-        <div data-aos="fade-right" className='haveLeft'>
+        <div data-aos={width?"zoom-in":"fade-right"} className='haveLeft'>
             <div  className="haveLeftHeading">
                 <div>
                     <h2>have a project

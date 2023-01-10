@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import './Joinour.css'
 
@@ -9,9 +9,20 @@ import JoinOurLeft from './JoinOurLeft'
 import JoinOurRight from './JoinOurRight'
 
 function Joinour() {
+    const [width,setWidth]=useState(true)
+    const changeWidth=()=>{
+        if(window.screen.width>=1024){
+          setWidth(false)
+        }
+        else{
+            setWidth(true)
+        }
+    }
+    window.addEventListener('scroll',changeWidth)
     return (
         <section className='joinOur'>
-            <div data-aos="fade-right" data-aos-offset="1250" className='joinOurTop'>
+            
+            <div data-aos={width?"zoom-in":"fade-right"} className='joinOurTop'>
                 <img className=""
                     alt="uk-print-workshop"
                     src={TopImage} />
@@ -22,7 +33,7 @@ function Joinour() {
                 <JoinOurRight />
             </div>
 
-            <div data-aos="fade-right" data-aos-offset="1750" className="joinLeftEnd">
+            <div data-aos={width?"zoom-in":"fade-right"} className="joinLeftEnd">
                 <img className=""
                     alt="uk-print-workshop"
                     src={BottomImg} />

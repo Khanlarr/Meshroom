@@ -1,10 +1,20 @@
-import React from 'react'
+import React,{useState} from 'react'
 import inputbg from '../../assets/img/inputbg.webp'
 import DashedLine from '../../assets/img/dashed-line.svg'
 
 function JoinOurLeft() {
+    const [width,setWidth]=useState(true)
+    const changeWidth=()=>{
+        if(window.screen.width>=1024){
+          setWidth(false)
+        }
+        else{
+            setWidth(true)
+        }
+    }
+    window.addEventListener('scroll',changeWidth)
     return (
-        <div data-aos="fade-right" data-aos-offset="1450" className='joinLeft'>
+        <div data-aos={width?"zoom-in":"fade-right"} className='joinLeft'>
             <div className="joinLeftHeading">
                 <h2>Join to our</h2>
             </div>
