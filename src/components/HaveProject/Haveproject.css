@@ -59,28 +59,48 @@
   margin-bottom: 26px;
   color: #0dff05;
 }
-
-.haveLeftForm form label input{
-  width: 35%;
+.haveLeftForm form label div{
   position: absolute;
   top: 60%;
-  left: 25%;
+  left: 25%; 
+  font-family: "Josefin-Sans", sans-serif;
+  font-size: 20px;  
+  /* overflow: hidden; */
+ 
+}
+.haveLeftForm form label div input{ 
+  width: 100%;
   outline: none;
   border: none;
-  background-color: transparent;
-  font-family: "Josefin-Sans", sans-serif;
-  font-size: 20px;
-  text-align: center;
   color: black;
-  overflow: hidden;
   color: #0dff05;
+  background-color: transparent; 
   padding-bottom: 2px;
-  text-align: center;
+   text-align: center;
 }
-.haveLeftForm form label input:focus{
+.haveLeftForm form label div div{
+  width: 120%;
+}
+.haveLeftForm form label div div span::before{
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  background-color: #0dff05;
+  position: absolute;
+  top: 10px;
+  left:0;
+  transition: all .2s linear;
+  transform: translateX(0);
+}
+.haveLeftForm form label div div .span::before{
+  width: 100%;
+  transform: translateX(-30%);
+}
+/* .haveLeftForm form label div input:focus{
   border-bottom: 3px solid #0dff05;
-}
-.haveLeftForm form label input:focus::placeholder {
+} */
+.haveLeftForm form label div input:focus::placeholder {
   color: transparent;
 }
 .haveButton {
@@ -191,6 +211,9 @@
     margin: 0 auto;
     padding-bottom: 1rem;
   }
+  .haveLeftForm form label div div{
+    width: 90%;
+  }
 }
 
 @media screen and (min-width: 370px) and (max-width: 414px) {
@@ -257,6 +280,9 @@
   .haveButton {
     margin: 0 auto;
     padding-bottom: 1rem;
+  }
+  .haveLeftForm form label div div{
+    width: 105%;
   }
 }
 
