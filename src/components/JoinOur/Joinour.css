@@ -210,12 +210,17 @@
     margin-top: 10% !important;
     font-size: 15px !important;
   }
-
-  .joinLeftForm form label input {
+  .joinLeftForm form label div{
     top: 65%;
+    width: 40%;
+  }
+  .joinLeftForm form label div input {
+    width: 100%;
     text-align: center;
   }
-
+  .haveLeftForm form label div div{
+    width: 100%;
+  }
   .joinOurContainer {
     width: 100%;
     display: flex;
@@ -278,9 +283,6 @@
   .jointext {
     transform: translateY(-15px) I !important;
   }
-  .haveLeftForm form label div div{
-    width: 90%;
-  }
 }
 @media screen and (min-width: 370px) and (max-width: 414px) {
   .joinOurTop {
@@ -317,10 +319,16 @@
     margin-top: 9% !important;
     font-size: 15px !important;
   }
-
-  .joinLeftForm form label input {
-    top: 65%;
+  .joinLeftForm form label div{
+   top: 65%;
+   width: 45%;
+  }
+  .joinLeftForm form label div input {
+    width: 100%;
     text-align: center;
+  }
+  .haveLeftForm form label div div{
+    width: 100%;
   }
 
   .joinOurContainer {
@@ -385,9 +393,6 @@
   .jointext {
     transform: translateY(-15px) !important;
   }
-  .haveLeftForm form label div div{
-    width: 105%;
-  }
 }
 
 @media screen and (min-width: 414px) and (max-width: 768px) {
@@ -424,12 +429,17 @@
   .jointext {
     font-size: 15px !important;
   }
-
-  .joinLeftForm form label input {
-    top: 65%;
+  .joinLeftForm form label div{
+   top: 65%;
+   width: 50%;
+  }
+  .joinLeftForm form label div input {
+    width: 100%;
     text-align: center;
   }
-
+  .joinLeftForm form label div div{
+    width: 100%;
+  }
   .joinOurContainer {
     width: 100%;
     display: flex;
@@ -527,12 +537,15 @@
   }
   .joinLeftForm form label div{
      top: 65%;
+     width: 50%;
   }
   .joinLeftForm form label div input {
    width: 100%;
     text-align: center;
   }
-
+  .joinLeftForm form label div div{
+    width: 100%;
+  }
   .joinOurContainer {
     width: 100%;
     display: flex;
