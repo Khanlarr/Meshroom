@@ -57,7 +57,7 @@
 
 .haveLeftForm form label p {
   margin-bottom: 26px;
-  color: blue;
+  color: #0dff05;
 }
 
 .haveLeftForm form label input{
@@ -73,12 +73,12 @@
   text-align: center;
   color: black;
   overflow: hidden;
-  color: blue;
+  color: #0dff05;
   padding-bottom: 2px;
   text-align: center;
 }
 .haveLeftForm form label input:focus{
-  border-bottom: 2px solid blue;
+  border-bottom: 3px solid #0dff05;
 }
 .haveLeftForm form label input:focus::placeholder {
   color: transparent;
@@ -122,7 +122,7 @@
 
 .request_quote {
   padding-top: 27px !important;
-  color: blue;
+  color: #0dff05;
 }
 
 @media screen and (min-width: 320px) and (max-width: 370px) {

@@ -79,7 +79,7 @@
   padding-bottom: 2px;
 }
 .joinLeftForm form label input:focus{
-  border-bottom: 2px solid #aeff30;
+  border-bottom: 3px solid #aeff30;
 }
 .joinLeftForm form label input:focus::placeholder{
   color: transparent;
