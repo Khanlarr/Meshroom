@@ -30,19 +30,19 @@ function HaveLeft() {
                     <label>
                         <p>name</p>
                         <img src={inputbg} alt="fashion-printing" />
-                        <input type="text" placeholder='name' />
+                        <div><input type="text" placeholder='name' /></div>
                     </label>
 
                     <label>
                         <p>email</p>
                         <img src={inputbg} alt="embroidery" />
-                        <input type="email" placeholder='email' />
+                        <div><input type="email" placeholder='email' /></div>
                     </label>
 
                     <label>
                         <p>message</p>
                         <img src={inputbg} alt="textile" />
-                        <input type="text" placeholder='message' />
+                        <div><input type="text" placeholder='message' /></div>
                     </label>
 
                     <div class="seeAll blackbutton haveButton">

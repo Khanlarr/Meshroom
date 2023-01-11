@@ -60,8 +60,8 @@
   color: blue;
 }
 
-.haveLeftForm form label input {
-  width: 20%;
+.haveLeftForm form label input{
+  width: 35%;
   position: absolute;
   top: 60%;
   left: 25%;
@@ -75,6 +75,7 @@
   overflow: hidden;
   color: blue;
   padding-bottom: 2px;
+  text-align: center;
 }
 .haveLeftForm form label input:focus{
   border-bottom: 2px solid blue;
@@ -84,6 +85,9 @@
 }
 .haveButton {
   margin: 15px 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .haveRight {
@@ -143,7 +147,7 @@
   }
 
   .haveLeftForm form label input {
-    width: 70%;
+    width: 55%;
     top: 64%;
     left: 15%;
   }
@@ -185,6 +189,7 @@
 
   .haveButton {
     margin: 0 auto;
+    padding-bottom: 1rem;
   }
 }
 
@@ -210,7 +215,7 @@
   }
 
   .haveLeftForm form label input {
-    width: 70%;
+    width: 55%;
     top: 64%;
     left: 15%;
   }
@@ -247,11 +252,11 @@
   .haveProject {
     display: flex;
     flex-direction: column;
-    padding-bottom: 0;
   }
 
   .haveButton {
     margin: 0 auto;
+    padding-bottom: 1rem;
   }
 }
 
@@ -277,7 +282,7 @@
   }
 
   .haveLeftForm form label input {
-    width: 70%;
+    width: 55%;
     top: 64%;
     left: 15%;
   }
@@ -319,6 +324,7 @@
 
   .haveButton {
     margin: 0 auto;
+    padding-bottom: 1rem;
   }
 }
 
@@ -344,7 +350,7 @@
   }
 
   .haveLeftForm form label input {
-    width: 70%;
+    width: 55%;
     top: 64%;
     left: 15%;
   }
@@ -381,5 +387,6 @@
 
   .haveButton {
     margin: 0 auto;
+    padding-bottom: 1rem;
   }
 }

@@ -15,6 +15,7 @@
   background-position: 0 0;
   background-size: auto 100%;
   animation: animatedBackground 200s linear infinite;
+  overflow-x: hidden;
 }
 
 @keyframes animatedBackground {
